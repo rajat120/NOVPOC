@@ -1,0 +1,121 @@
+
+.title{
+    color:#000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.align-margin{
+    margin-left: 6rem;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.column{
+    width: 29.3%;
+}
+.column-1{
+   width: 38%; 
+}
+.column-3{
+    width: 29%;
+}
+
+
+@media  (max-width: 600px) {
+    .form__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: none;
+    
+      
+    }
+}
+
+
+.input{
+    width: 80%;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-style: solid;
+    border-radius: 0.3rem;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+        
+    
+}
+
+@media (max-width: 600px)  {
+    .input{
+        margin-left: 3rem;
+        width: 20rem;
+    }
+}
+.label{
+ 
+    color: rgb(11, 9, 9);
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-left: 0.2rem;
+}
+
+@media (max-width: 600px) {
+    .label{
+        margin-bottom: 0.3rem;
+        color: rgb(11, 9, 9);
+        font-size: 1rem;
+        font-weight: 900;
+        margin-left: 3rem;
+    }
+}
+#cattle__farmer{
+    width: 85%;
+    height: 3rem;
+    margin-bottom: 1rem;
+     outline: none;
+     border: solid gray;
+    border-radius: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 600px)  {
+    #cattle{
+        width: 327px;
+        margin-left: 3rem;
+    }
+}
+.btn{
+    margin-top: 1rem;
+    text-align: right;
+    margin-right: 2rem;
+  
+}
+.required-field::after{
+    content: '*';
+    color: red;
+    font-size: 1.2rem;
+}
+.btn_submit{
+    width: 20%; 
+    background-color:rgba(128, 128, 128, 0.258);
+    height: 2rem;
+    color: black;
+   outline: none;
+   border-radius: 0.3rem;
+   margin-bottom: 1rem;
+ 
+ 
+
+}
+
+@media (max-width:600px){
+    .btn_submit{
+        width: 20rem;
+        margin-left: 3rem;
+        outline: none;
+    }
+}
